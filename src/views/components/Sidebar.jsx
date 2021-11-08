@@ -55,14 +55,7 @@ function Sidebar() {
       
       <nav>
         <ul>
-          <li className={location.pathname == "/car-list" ? "active" : ""}>
-            <Link to="/car-list">
-            {location.pathname == "/car-list" ?               <img src="/icons/dashboard-active.svg" alt="" />
- :               <img src="/icons/dashboard-inactive.svg" alt="" />
- }
-             <span>Dashboard</span>
-            </Link>
-          </li>
+       
 
 
           <li className={location.pathname == "/car-list" ? "active" : ""}>

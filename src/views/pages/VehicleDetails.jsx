@@ -357,9 +357,9 @@ function VehicleDetails() {
               
                 }}
                 title="Click for refresh data"
-                className="refresh-data position-absolute"
+                className="refresh-data position-absolute d-none"
               ></div>
-              <div className=" position-relative w-50">
+              <div className=" position-relative w-50 ">
                 {perde ? (
                   <div className="premium-container br-12  p-3">
                     <button className="fs-75rem purple-button text-center">
